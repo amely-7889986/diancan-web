@@ -1,0 +1,29 @@
+.g-wrap {width: 100%;overflow: hidden;background: #c72222;min-height:100%;padding-bottom: 20px;}
+
+.logo-sec {width: 100%;overflow: hidden;}
+.logo-sec p {width: 100%;height:30px;line-height: 30px;text-align: center;margin-top: -40px;color:#fff;}
+.logo-sec p em {color:#ffb820;margin:0 2px;}
+
+.main-sec {width: 92%;overflow: hidden;padding:0 4%;}
+
+.h15 {height: 15px;}
+.pt5 {padding-top: 5px;}
+
+.m-title {width: 100%;height:15px;margin-top: 10px;border-bottom: 1px solid #ffb820;margin-bottom: 30px;}
+.m-title h3 {width: 35%;height:30px;line-height: 30px;text-align: center;color:#ffb820;background: #c72222;margin:0 auto;font-size: 1.3em;font-weight: bold;}
+
+.peolist {width: 100%;overflow: hidden;background: #b21b1b;}
+.peolist dd {width: 92%;overflow: hidden;padding:14px 0;border-bottom: 1px dashed #ffb820;margin:0 auto;}
+.peolist dd:nth-of-type(3n) {border-bottom: none;}
+
+.peolist dd img {float: left;}
+.peolist dd div.right {width: 75%;float: right;}
+.peolist dd div.right span {width: 100%;height: 30px;color:#ffc5c5;display: block;}
+.peolist dd div.right span h2 {font-size: 1.2em;float: left;width: 60%;}
+.peolist dd div.right span em {width: 40%;float: right;font-size: 0.9em;line-height: 22px;}
+.peolist dd div.right p {width: 100%;line-height: 16px;font-size: 1.1em;color:#ffb820;}
+
+.einfo {width: 92%;overflow: hidden;padding:14px 4%;background: #b21b1b;}
+.einfo p {line-height: 24px;color:#ffb820;}
+
+.morebtn {width: 100%;height:30px;line-height: 30px;text-align: center;background:#b21b1b;color:#ffb820;margin-top: 10px;}

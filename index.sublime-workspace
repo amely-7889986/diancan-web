@@ -1,0 +1,568 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"wh",
+				"white-space"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"clos",
+				"close-btn"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"f",
+				"f35929"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"c",
+				"class	Attr"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"backg",
+				"background-position"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"con",
+				"condition"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"int",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"Packagec",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"Package Control",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages→浏览程序包"
+			],
+			[
+				"Package Control: less",
+				"Package Control: List Packages→列出程序包"
+			]
+		],
+		"width": 504.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = ‘2deb499853c4371624f5a07e27c334aa’ + ‘bf8c4e67d14fb0525ba4f89698a6d7e1′; pf = ‘Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( ‘http://packagecontrol.io/’ + pf.replace(‘ ‘, ‘%20′)).read(); dh = hashlib.sha256(by).hexdigest(); print(‘Error validating download (got %s instead of %s), please try manual install’ % (dh, h)) if dh != h else open(os.path.join( ipp, pf), ‘wb’ ).write(by)",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/project/陈情表/官网/chenqing-web/css/global.css",
+		"/E/project/陈情表/官网/chenqing-web/login.html",
+		"/E/project/easyui/easyui/Admin/norchat.html",
+		"/E/project/easyui/easyui/Admin/norchat-next.html",
+		"/E/project/easyui/easyui/norchat/dist/main.js",
+		"/E/project/easyui/easyui/norchat/index.html",
+		"/E/project/web微信/dist/main.js",
+		"/E/project/easyui/easyui/Admin/css/norchat.css",
+		"/E/project/easyui/easyui/Admin/zsfwzs_admin.css",
+		"/E/project/easyui/easyui/themes/cupertino/linkbutton.css",
+		"/E/project/easyui/easyui/themes/icon.css",
+		"/E/project/easyui/easyui/demo/layout/full.html",
+		"/E/project/easyui/easyui/demo/norchat.css",
+		"/E/project/easyui/easyui/demo/zsfwzs_admin.css",
+		"/E/project/easyui/easyui/demo/layout/norchat.html",
+		"/E/project/陈情表/官网/chenqing-web/confirmorder.html",
+		"/E/project/陈情表/官网/chenqing-web/edit-address.html",
+		"/E/project/陈情表/官网/chenqing-web/edit-keyword.html",
+		"/E/project/陈情表/官网/chenqing-web/pageinfo.html",
+		"/E/project/陈情表/官网/chenqing-web/pagelist.html",
+		"/E/project/陈情表/官网/chenqing-web/sel-area.html",
+		"/E/project/陈情表/官网/chenqing-web/shopcar.html",
+		"/E/project/陈情表/官网/chenqing-web/shoproduct.html",
+		"/E/project/陈情表/官网/chenqing-web/usercenter.html",
+		"/E/project/陈情表/官网/chenqing-web/address.html",
+		"/E/project/手机端聊天/index.html",
+		"/E/project/jQuery/index.html",
+		"/E/project/陈情表/jquery-plugins/mobile/river/dialog/index.html",
+		"/E/project/陈情表/官网/chenqing-web/text.html",
+		"/E/project/陈情表/官网/chenqing-web/css/swiper.3.2.0.min.css",
+		"/E/project/陈情表/官网/chenqing-web/order.html",
+		"/E/project/陈情表/官网/chenqing-web/css/dialog.css",
+		"/E/project/陈情表/官网/chenqing-web/payorder.html",
+		"/E/张楚唯/naturalbuy20120415/naturalbuy20120415/search.html",
+		"/E/project/陈情表/官网/chenqing-web/confirmorder(text)",
+		"/E/张楚唯/naturalbuy20120415/naturalbuy20120415/shopinfo.html",
+		"/E/project/佛山/KS-template05/css/mian.css",
+		"/E/project/佛山/KS-template05/index.html",
+		"/E/project/佛山/KS-template05/articelist.html",
+		"/E/project/佛山/KS-template05/expertlist.html",
+		"/E/project/佛山/KS-template05/expertinfo.html",
+		"/E/project/佛山/KS-template05/articelinfo.html",
+		"/E/project/佛山/KS-template04/css/mian.css",
+		"/E/project/佛山/KS-template04/expertlist.html",
+		"/E/project/佛山/KS-template04/index.html",
+		"/E/project/佛山/KS-template04/articelinfo.html",
+		"/E/project/佛山/KS-template04/expertinfo.html",
+		"/E/project/佛山/KS-template04/articelist.html",
+		"/E/project/佛山/KS-template04/css/bootstrap.min.css",
+		"/E/project/佛山/KS-template04/articeinfo.html",
+		"/E/project/佛山/KS-template01（2016-5-25）/KS-template01/articleList.html",
+		"/E/project/佛山/KS-template01（2016-5-25）/KS-template01/index.html",
+		"/E/project/佛山/KS-template04/css/bootstrap.css",
+		"/E/project/佛山/KS-template01（2016-5-25）/KS-template01/css/mian.css",
+		"/E/project/互联网+医疗-Win/easyui-theme.css",
+		"/E/project/互联网+医疗-Win/zsfwzs_admin.css",
+		"/E/project/陈情表/官网/chenqing-web/coolist.html",
+		"/E/project/南科大/代码方案/STU-midwife/index.html",
+		"/E/project/南科大/代码方案/STU-midwife/js/banner.js",
+		"/E/project/南科大/代码方案/STU-midwife/css/css/mian.css",
+		"/E/project/南科大/代码方案/STU-midwife/css/less/info.less",
+		"/E/project/南科大/代码方案/STU-midwife/css/less/teamlist.less",
+		"/E/project/南科大/代码方案/STU-midwife/css/less/column.less",
+		"/E/project/南科大/代码方案/STU-midwife/css/less/fooder.less",
+		"/E/project/南科大/代码方案/STU-midwife/teamlist.html",
+		"/E/project/GD-Military/css/less/column.less",
+		"/E/project/陈情表/官网/chenqing-web/css/mmenu.css",
+		"/E/project/文体通/ZSHJ-services/css/global.css",
+		"/E/project/GD-Military/column.html",
+		"/E/project/zsfwzs_admin.css",
+		"/F/软件安装/frozenui-1.3.0/frozenui-1.3.0/css/btn.css",
+		"/F/软件安装/frozen/css/frozen.css",
+		"/E/project/GD-Military/css/css/mian.css",
+		"/E/project/GD-Military/css/less/col-content.less",
+		"/E/project/GD-Military/css/less/default.less",
+		"/E/project/GD-Military/css/less/header.less",
+		"/E/project/GD-Military/index.html",
+		"/E/project/GD-Military/css/less/nav.less",
+		"/E/project/陈情表/adminTemplate/css/style.css",
+		"/E/project/陈情表/adminTemplate/index.html",
+		"/E/project/陈情表/adminTemplate/css/font/iconfont.svg",
+		"/E/project/陈情表/adminTemplate/css/font/iconfont.css",
+		"/E/project/陈情表/adminTemplate/css/font/adminthemes-webfont.svg",
+		"/E/project/陈情表/adminTemplate/css/font/未标题-1.svg",
+		"/E/project/陈情表/adminTemplate/Sos.htm",
+		"/E/project/陈情表/adminTemplate/Center.aspx_files/style.css",
+		"/E/project/陈情表/adminTemplate/js/dialogs/gmap/gmap.html",
+		"/E/project/陈情表/adminTemplate/Center.htm",
+		"/E/project/文体通/ZSHJ-services/register.html",
+		"/E/project/文体通/ZSHJ-services/register3.html",
+		"/E/project/文体通/ZSHJ-services/css/login.css",
+		"/E/project/文体通/ZSHJ-services/bindaccount.html",
+		"/E/project/陈情表/官网/CQB-WEB/css/index.css",
+		"/E/project/陈情表/官网/CQB-WEB/index.html",
+		"/E/张楚唯/DroidFamily/DroidFonts/DroidSansFallback.ttf",
+		"/E/张楚唯/inego/css/less/header.less",
+		"/E/张楚唯/inego/index.html",
+		"/E/project/naturalbuy/naturalbuy/css/css/mian.css",
+		"/E/project/naturalbuy/naturalbuy/u-pay.html",
+		"/E/张楚唯/inego/css/less/default.less",
+		"/E/project/naturalbuy/naturalbuy/List.html",
+		"/F/sublime/Sublime Text3/Data/Packages/Package Control/Package Control.sublime-settings",
+		"/F/sublime/Sublime Text3/Data/Packages/EncodingHelper/EncodingHelper.sublime-settings",
+		"/F/sublime/Sublime Text3/Data/Packages/User/EncodingHelper.sublime-settings",
+		"/F/sublime/Sublime Text3/Data/Packages/User/Package Control.sublime-settings",
+		"/F/sublime/Sublime Text3/Data/Packages/Default/Preferences.sublime-settings",
+		"/E/张楚唯/naturalbuy20120415/naturalbuy20120415/login.html",
+		"/E/张楚唯/naturalbuy20120415/naturalbuy20120415/css/frozen.css",
+		"/G/南科大/代码方案/STU-midwife/css/less/mian.less",
+		"/G/南科大/代码方案/STU-midwife/css/less/column.less",
+		"/F/sublime/Sublime Text3/Data/Packages/Package Control.sublime-package"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"E:\\project\\佛山\\KS-template04\\css"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"a",
+			";}",
+			"0",
+			";}",
+			"psw-btn",
+			".fl",
+			"psw-btn",
+			"font color",
+			"mui-bar",
+			"btn",
+			"市民002",
+			"%; ",
+			"m-text",
+			"name",
+			"p name",
+			"p class=\"name\"",
+			"<p class=\"name\">",
+			"coffee",
+			"name coffee",
+			"name",
+			"<p class=\"name\">",
+			"coffee",
+			";\">",
+			"h2",
+			"    </",
+			"zszfg_ht_top",
+			"easyui-menubutton",
+			"icon-controller",
+			"name",
+			"coffce",
+			"sidebar",
+			"html",
+			"floatR",
+			"carousel",
+			"u-expertInfo-tit",
+			"caption",
+			"u-article-list",
+			"u-sitemap",
+			"u-column-box",
+			";\n",
+			"8px",
+			"thumbnail",
+			"14",
+			"text-center",
+			"sr-only",
+			"pagination",
+			"disabled",
+			"pagination",
+			"u-article-list",
+			"u-aricle-tit",
+			"u-link",
+			"navbar-form",
+			"font-family",
+			"form-group",
+			"form-control",
+			"form-group",
+			".form-group>.form-control",
+			".form-group .form-control",
+			"form-control",
+			"navbar-form",
+			"form-control",
+			"form-group",
+			"navbar-form",
+			"008cbe",
+			"navbar-form",
+			"btnR",
+			"col-team-name",
+			"\n",
+			"b",
+			"; ",
+			"margin",
+			"margin-bottom",
+			"head",
+			"javascript:void(0)",
+			"website_icon",
+			";\n",
+			"min",
+			">-->\n",
+			";\n",
+			".ui-form-item-pure input, .ui-form-item-pure textarea",
+			".ui-form-item",
+			"ui-form-item",
+			"line-height"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
