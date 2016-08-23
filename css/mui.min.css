@@ -1219,7 +1219,7 @@ p {
 }
 
 .mui-bar {
-	position: fixed;
+	position: relative;
 	right: 0;
 	left: 0;
 	z-index: 999;

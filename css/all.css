@@ -408,7 +408,8 @@
 .mui-bar-nav { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center; font-size: .36rem; }
 .mui-bar-nav .iconfont, .mui-bar-nav .mui-icon { display: inline-block; color: #fafafa; }
 .mui-bar-nav .iconfont { font-size: .57rem; }
-.mui-bar-nav .btn { position: relative; z-index: 11; display: block; margin: 0 .15rem; padding: 0 .25rem; color: #525252; font-size: .45rem;/* height: 1.44rem; line-height: 1.44rem; */}
+.mui-bar-nav .btn { position: absolute; top: 0; z-index: 11; display: block;/* width: 17%;*/ height: 1.44rem; line-height: 1.44rem; color: #ffb426; font-size: .45rem; text-align: center;}
+.mui-bar-nav .exit{ position: absolute; top: 0; right: 0; z-index: 111; display: block; width: 17%; height: 1.44rem; line-height: 1.44rem; text-align: center;}
 .mui-bar-nav .btn p{ width: 2em; color: #ffaa30; font-size: 1em;}
 .mui-bar-nav .btn span{display: block; width: 15px; height: 15px; line-height: 15px; text-align: center; background-color: #cc3333; color: #fff; border-radius: 50%; -webkit-border-radius: 50%; position: absolute; top: -5px; right: 0; font-size: .5em;}
 .mui-bar-nav .btn .ui-numdot { width: 32px; height: 32px; line-height: 32px; top: 50%; left: 50%; margin-top: -.5rem; margin-left: .1rem; }

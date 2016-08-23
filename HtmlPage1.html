@@ -1,0 +1,196 @@
+﻿
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head id="Head1"><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" /><meta name="keywords" /><meta name="description" /><meta name="save" content="history" /><link rel="stylesheet" type="text/css" href="css/base.css" /><link rel="stylesheet" type="text/css" href="css/page.css" /><link rel="stylesheet" type="text/css" href="css/all.css" /><link rel="stylesheet" type="text/css" href="/css/mui.min.css" /><link rel="stylesheet" type="text/css" href="/css/loaders.min.css" /><link rel="stylesheet" type="text/css" href="css/loading.css" /><link rel="stylesheet" type="text/css" href="css/swiper.min.css" /><link rel="stylesheet" type="text/css" href="css/layer.css" />
+   <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="js/jquery.json-2.4.min.js" type="text/javascript"></script>
+    <script src="js/WebFunc.js" type="text/javascript"></script>
+    <script src="js/loginOut.js" type="text/javascript"></script>
+   <script type="text/javascript">
+       QueryString.Initial();
+   </script>
+    
+    
+<!--[if IE]>
+<style type="text/css">
+  /*input {
+    filter:chroma(color=#000000);
+  }*/
+</style>
+<![endif]-->
+<title>
+
+</title></head> 
+
+<body id="MyBody">
+    <form method="post" action="./Login.aspx" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNDM2MDQ5OTA4ZGTZbr2bhMXrRSVi0nCgV71msuYEBjKxGge946n3YrSJbQ==" />
+</div>
+
+<script type="text/javascript">
+    //<![CDATA[
+    var theForm = document.forms['form1'];
+    if (!theForm) {
+        theForm = document.form1;
+    }
+    function __doPostBack(eventTarget, eventArgument) {
+        if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+            theForm.__EVENTTARGET.value = eventTarget;
+            theForm.__EVENTARGUMENT.value = eventArgument;
+            theForm.submit();
+        }
+    }
+    //]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B13CE9DD" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAALhKBPw/syiTa5oN1d/3lwV5Y1uW+s8pDlcrz2yL+dVw1VYrqXSgTIMjGB36w/k71kW71l75yiqO+XDLeZ7n6eH" />
+</div>
+    
+	<header class="mui-bar mui-bar-nav report-header box-s" id="header">
+        
+
+
+        
+    <p>点餐登录</p>
+
+        
+        
+
+    </header>
+    <div id="main" class="mui-clearfix">
+	   
+    
+    
+    <div class="contaniner clearfloat">
+    
+        <div class="login-form clearfloat box-s">
+            <div class="log_tab">
+              <label for="name" class="log_tit">用户名：</label>
+              <label for="name" class="log_input"><input type="text" id="txtAccount" name="txtAccount"  placeholder="请输入用户名" /></label>
+            </div>
+            <div class="log_tab">
+              <label for="key" class="log_tit">密码：</label>
+              <label for="key" class="log_input"><input type="password" id="txtPwd" name="txtPwd"   placeholder="请输入用户密码" /></label>
+            </div>
+            <div class="log_tab">
+                <label for="code" class="log_tit">验证码：</label>
+                <label for="code" class="log_input" style="width: 44%;">
+                    <input style="width: 80%;" type="password" name="txtVerCode" id="txtVerCode" value="" placeholder="请输入验证码" /></label>
+                <label for="code" style="display: block; float: right; width: 30%;">
+                    <img alt="验证码" id="validate" onclick="return ChangeCode();" style="height: 40px;">
+
+                </label>
+            </div>
+            <div class="log_link" >
+              <label id="info" for="forgetkey"></label>
+            </div>
+            <div class="log_btn">
+              <a class="log_btn" onclick="return regSubmit();" href="javascript:__doPostBack(&#39;ctl00$Main$ctl00&#39;,&#39;&#39;)">登录</a>
+            </div>
+        </div>
+    </div>
+
+
+
+	</div>
+    <footer class="page-footer fixed-footer" id="footer">
+        
+    
+    
+
+	</footer>
+    </form>
+
+	<script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+	<script src="js/fastclick.js"></script>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript" src="js/hmt.js" ></script>
+    <script src="js/layer.js"></script>
+    <script src="js/rem.js"></script>
+    <script type="text/javascript">
+        //#region 输出提示
+        function MessageBox(Message, timeCount) {
+            if (!timeCount)
+                timeCount = 0;
+            layer.open({
+                content: Message,
+                style: 'background-color:#8FD800; color:#fff; border:none;',
+                time: timeCount,
+            });
+        }
+        //#endregion
+    </script>
+    
+
+	<script type="text/javascript">
+	    if (window != window.top)
+	        window.top.location.href = location.href;
+	    $(function () {
+	        ChangeCode();
+	        var account = $("#txtAccount");
+	        var pwd = $("#txtPwd");
+	        account.blur(function () {
+	            if (account.val() == "") {
+	                $("#lblAccount").text("请输入帐号")
+	            } else {
+	                $("#lblAccount").text("")
+	            }
+	        });
+
+	        pwd.blur(function () {
+	            if (pwd.val() == "") {
+	                $("#lblPwd").text("请输入密码")
+	            } else {
+	                $("#lblPwd").text("")
+	            }
+	        });
+
+	        //$(txtVerCode)
+
+
+	    });
+	    function regSubmit() {
+	        var account = $("#txtAccount");
+	        var pwd = $("#txtPwd");
+
+	        if (account.val() == "") {
+	            $("#lblAccount").text("请输入帐号")
+	            return false;
+	        } else {
+	            $("#lblAccount").text("")
+	        }
+
+
+
+	        if (pwd.val() == "") {
+	            $("#lblPwd").text("请输入密码")
+	            return false;
+	        } else {
+	            $("#lblPwd").text("")
+	        }
+
+	        if ($("#txtVerCode").val() == "") {
+	            $("#info").html("验证码不能为空");
+	            return false;
+	        }
+	        //$("#btnALogin").click();
+	        return true;
+	    }
+
+	    function ChangeCode() {
+	        var date = new Date();
+	        var myImg = document.getElementById("validate");
+	        myImg.src = "validateCode.aspx?date=" + date.getMilliseconds()
+	        return false;
+	    }
+    </script>
+
+</body>
+</html>

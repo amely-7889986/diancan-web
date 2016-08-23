@@ -78,7 +78,14 @@
 
 .contaniner .shopcar .ordernum{ padding: 0 5%; font-size: .5rem; color: #444;}
 .contaniner .shopcar figure{ width: 20%; overflow: hidden; float: left; margin-left: 4%;}
-.contaniner .shopcar figure img{ width: 100%;/* min-height: 100%;*/ }
+.contaniner .shopcar figure img{ width: 100%;}
+.carpic{ display: block; width: 100%; height: 100%; border-radius: .6em; overflow: hidden; background: #ddd;}
+.carpic img{ width: 50% !important; height: 50%; float: left; border: 1px solid #fff;}
+.car-list{ display: block; width: 100%; overflow: hidden;}
+.shoptit{ display: inline-block; width: 30%; font-size: 1.4em; color: #ffb426; padding-left: 1em;}
+.shopinf{ display: inline-block; width: 70%; font-size: 1.4em;}
+
+/*.contaniner .shopcar figure img{ width: 100%; min-height: 100%; }*/
 .contaniner .shopcar dl{ position: relative; float: left; width: 54%; height: 10em;   margin: 0 3%; overflow: hidden;}
 .contaniner .shopcar dl dt{ font-size: 1.3815em; color: #333;}
 .contaniner .shopcar dl dd{ font-size: 1.169em; color: #999;}
@@ -127,7 +134,7 @@
 /*
  每日签到----------------------------------------------------------------------------------
  * */
-.report-header{width: 100%; padding: 5% 3%; background-color: #faf8f3; border-bottom: 2px solid #dcdad3;}
+.report-header{width: 100%; padding: 0 3%; background-color: #faf8f3; border-bottom: 2px solid #dcdad3;}
 .report-header .icon-fanhui:before{display: block; width: 20%; float: left;}
 .report-header p{width: 100%; text-align: center; float: right; color: #404040; font-size: 1.5em;}
 
@@ -208,76 +215,22 @@
 .log_tit{ width: 20%; font-size: 1.4em;}
 .log_input{ width: 64%; height: 4em;}
 .log_input >input{ font-size: 1.2em; padding: 0.2em 0.6em !important;}
-.log_link{ display: block; margin: .8em;}
+.log_link{ display: block; margin: .8em; text-align: center; font-size: 1.2em;}
 .log_link a{ display: inline-block; font-size: 1.2em; padding: .4em;}
 .log_btn{ display: block; text-align: center; margin-top: 1em; overflow: hidden;}
 .log_btn a{ display: inline-block; margin: 0 auto; padding: .6em 2.4em; background: #ffb426; color: #fff; font-size: 1.8em; border-radius: .4em;}
 .log_btn a:hover{ background: #333; color: #fff;}
 
-/*
- 我的账户----------------------------------------------------------------------------------
- * */
-.tui-btn{display: block; margin: 5% auto; width: 90.741%; text-align: center; padding: 4% 0; background-color: #D24239; color: #fff; font-size: .5rem;}
 
-/*
- 账户余额----------------------------------------------------------------------------------
- * */
-.balance-top{width: 100%; padding: 5%; background-color: #fff; border-bottom: 1px solid #dcdad3;}
-.balance-top .tit{color: #333333; font-size: .5rem;}
-.balance-top .num{color: #d24239; font-size: 1.2rem;}
-.balance-top .num span{font-size: .6rem;}
-.prompt{width: 90%; color: #999999; font-size: .5rem; margin: 0 auto;}
-
-/*
- 修改资料----------------------------------------------------------------------------------
- * */
-.data ul li{padding: 0 5%;}
-.data ul li img{max-height: 1.5rem;}
-.data ul li p{line-height: 1.5rem; margin-left: 0;}
-.data ul li span{font-size: .45rem; color: #bcbcbc; line-height: 1.5rem;}
-.icon-right{line-height: 1.5rem;}
-.data ul li .shuru{font-size: .45rem; color: #bcbcbc; height: 1rem; padding: 0; text-align: right; line-height: 1rem; margin-top: .2rem; width: 60%; border: none;}
-.data ul li.touxiang{padding: 3% 5%;}
 /*
  修改密码----------------------------------------------------------------------------------
  * */
-.mpsw{width: 100%; padding: 5%; background-color: #fff; border-bottom: 1px solid #dcdad3;}
-.mpsw form input{width: 100%; border: 1px solid #dcdad3; background-color: #f9f9f8; font-size: .4rem; color: #666; line-height: .8rem; text-indent: .5rem; padding: 0;}
+.mpsw{width: 100%; padding: 2em; background-color: #fff; border-bottom: 1px solid #dcdad3; overflow: hidden;}
+.mpsw input{width: 100%; border: 1px solid #dcdad3; background-color: #f9f9f8; font-size: .4rem; color: #666; line-height: .8rem; text-indent: .5rem; padding: 0 !important;}
 .psw-btn{width: 90%; margin: 10% auto 0;}
 .psw-btn a{display: block; width: 46.938%; padding: 4% 0; background: url(../img/jisuan.jpg) center top no-repeat; background-size: 100% 100%; color: #fff; font-size: .5rem; text-align: center;}
 .psw-btn a:last-child{background: url(../img/yduihuan.jpg) top center no-repeat; background-size: 100% 100%;}
 
-/*
- 管理收货地址----------------------------------------------------------------------------------
- * */
-.address-add{display: block; width: 100%; padding: 4% 0; font-size: .5rem; color: #fff; background: url(../img/navfour-bg.jpg) top center no-repeat; background-size: 100% 100%; text-align: center;}
-
-/*
- 关于我们----------------------------------------------------------------------------------
- * */
-.about{background-color: #fff; padding: 5%; width: 100%;}
-.about ul li{width: 100%; font-size: .5rem; line-height: .8rem; color: #666666;}
-
-
-/*
- 收货评价----------------------------------------------------------------------------------
- * */
-.assess{width: 100%;}
-.assess .top{width: 100%; padding: 5%; background-color: #fff; border-bottom: 1px solid #dcdad3;}
-.assess .top .tu{width: 17.755%; text-align: center;}
-.assess .top .tu img{max-width: 100%;}
-.assess .top .pinfen{width: 78%; margin-left: 3%;}
-.assess .top .pinfen .tit{color: #444444; font-size: .55rem; width: 100%; overflow: hidden; text-overflow: ellipsis; -webkit-text-overflow: ellipsis; white-space: nowrap;}
-.assess .assess-right{ width: 90%; padding: 3% 0;background-color: #fff; overflow: hidden;}
-.assess .assess-right{ width: 36%; overflow: hidden;}
-.assess .assess-right img{width: 20%; display: block; float: left; }
-.assess textarea{float: left; text-align: justify; width: 100%; border: none; font-size: .45rem; color: #444444; border-bottom: 1px solid #dcdad3; }
-.assess .bottom{width: 100%; margin-top: 3%; border-top: 1px solid #dcdad3; border-bottom: 1px solid #dcdad3; background-color: #fff; padding: 5%;}
-.assess .bottom .ztpinfen{color: #bcbcbc; font-size: .45rem; margin-bottom: 3%;}
-.assess ul{ width: 100%; background-color: #fff; overflow: hidden;}
-.assess ul li{ float: left; font-size: .5rem; color: #444444; line-height: 1.2rem;}
-.assess ul .assess-right{ float: left; margin-left: 5%; width: 30%; overflow: hidden;}
-.assess ul .assess-right img{width: 20%; display: block; float: left; }
 
 /*
  登录----------------------------------------------------------------------------------
@@ -294,9 +247,58 @@
 .sign .list .yzma{width: 50%;}
 .sign .list .btn{width: 25%; text-align: center; height: .9rem; line-height: .9rem; background: none; color: #d24239; font-size: .35rem; border-radius: 50px; -webkit-border-radius: 50px; margin-top: .25rem; border: 2px solid #d24239;}
 
+/*
+ 厨师界面----------------------------------------------------------------------------------
+ * */
+.chieflist{ display: block; width: 100%; overflow: hidden;}
+.chieftit{ width: 100%; height: 3em !important; text-align: center; line-height: 3em;color: #444; font-size: 1.4em; border-bottom: 1px solid #ddd;}
+.chieftit >div{ display: block; border-right: 1px solid #ddd;}
+.chief{ display: block; overflow: hidden; border-bottom: 1px solid #ddd;}
+.chieftit p{ width: 100%;}
+.chieflist tr{ display: inline-block; width: 100%; overflow: hidden; border-bottom: 1px solid #ddd !important;}
+.chieflist tr td {display: block; min-height: 10em; border-right: 1px solid #ddd; overflow: hidden;}
+.chieflist div >div{ border-right: 1px solid #ddd;}
+.chief-num{ display: block;  min-height: 8em  !important; text-align: center; padding: 2% .4em; font-size: 1.4em; }
+.chief-name{ display: inline-block;  min-height: 8em  !important; text-align: center; padding: 2% .4em; font-size: 1.4em;}
+.chief-order{ display: inline-block; min-width: 26em; overflow: hidden; padding: 2% .4em; font-size: 1.4em;}
+.chief-order .order-li{ display: inline-block; padding: .4em .8em; color: #fff; margin: .2em; background-color: #f0ad4e; border-radius: .4em;}
+.chief-btn{ display: block;  min-height: 8em  !important; text-align: center; padding-top: 2%; border-right: none !important; overflow: hidden;}
+.chief-btn a{ display: inline-block;}
 
+/*
+ 首页界面----------------------------------------------------------------------------------
+ * */
+.sideMenu h3 .sideMenu-shangem{ width:30px; height:30px !important; margin-right: 5%; background:url(../img/shang.png) center no-repeat; cursor:pointer; background-size: 50%;}
+.sideMenu h3 .sideMenu-youem{ width:30px; height:30px; margin-right: 5%; background:url(../img/you.png) center no-repeat; cursor:pointer; background-size: 50%;}
+.sideMenu .sideMenu-h3{ padding:2.5% 0 2.5% 10%; line-height:2.5;}
+.sideMenu h3 a{ color:#333;}
+.sideMenu-h3icon00{ background:url(../img/porder.png) no-repeat left center !important; background-size: 9% !important;}
+.sideMenu-h3icon01{ background:url(../img/takemeal.png) no-repeat left center !important; background-size: 9% !important;}
+.sideMenu-h3icon02{ background:url(../img/order.png) no-repeat left center !important; background-size: 9% !important;}
 
+/*
+ 取餐界面----------------------------------------------------------------------------------
+ * */
+.sideMenu .takmeal-sideMenu-h3{ background-image:none;}
+.sideMenu-h3 .number{ color: #ffb426;}
+.sideMenu .slist .window{ padding:0 .2em; width:100%!important}
+.sideMenu .slist .list .mealwindow{ width:31.6666%; background:url(../upload/2.jpg) no-repeat; background-size:cover; border:none; position:relative; display:inline-block; margin:.2em;}
+.sideMenu .slist .list .mealwindow02{ }
+.sideMenu .slist .list .mealwindow p{ font-size:0.5rem; color:#fff; margin-top:35%!important}
+.sideMenu .slist .list .mealwindow img{ width:100%; display:block;}
+.mealwindow .mealwindow-modality{ display:inline-block; width:100%; height:100%; background:rgba(0,0,0,.5); position:absolute; top:0; left:0;}
+.mealwindow-modality .choice{ display:inline-block; width:26%; height:26%; background:url(../img/choice-nor.png) no-repeat; background-size:cover; position:absolute; bottom:5%; right:5%; }
+.mealwindow-modality span.sel{ background:url(../img/choice-sel.png) no-repeat; background-size:cover; }
+.mealwindow .noclick{ background:rgba(0,0,0,.8);}
+.mealwindow .noclick span.noclicked{ width:100%; height:26%; padding:1.5%; background:#d24239; position:absolute; left:0; bottom:0; font-size:0.5rem; color:#fff;}
 
-
+a.reelect{ display: inline-block; background-color: #dd524d; padding: .4em .8em; margin-top: .8em; font-size: 1.4em; border-radius: .4em; color: #fff; cursor:pointer;}
+.sideMenu .takefood-h3{ border-bottom:1px solid #DDDBD4;}
+.sideMenu .takefood-h3,.contaniner .sideMenu .noicon{ background:none !important; padding:2.5%; cursor:unset;}
+.canteenNum{ width:100%; padding:5% 2.5%;}
+.canteenNum-win{ width:25%; padding:10% 0; background:#ffb426; font-size:0.5rem; color:#fff; text-align:center;}
+.li-upnum{ display: block; width:65%; padding-left:3%;}
+.li-upnum .title{ display: block; margin-bottom:.4em; font-size:0.6rem; text-align: left;}
+.li-upnum li{ display: inline-block; float: left; font-size: 1.4em; padding: .4em .6em; margin: .2em .4em; background-color: #f0ad4e; border-radius: .4em;}
 
 

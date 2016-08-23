@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>在线点餐</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/page.css"/>
+    <link rel="stylesheet" type="text/css" href="css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/loaders.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/loading.css"/>
+    <link rel="stylesheet" type="text/css" href="css/layer.css"/>
+    <link rel="stylesheet" href="css/lightbox.css">
+<script type="text/javascript">
+	$(window).load(function(){
+		$(".loading").addClass("loader-chanage")
+		$(".loading").fadeOut(300)
+	})
+</script>
+</head>
+<!--loading页开始-->
+<div class="loading">
+	<div class="loader">
+        <div class="loader-inner pacman">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+	</div>
+</div>
+<!--loading页结束-->
+<body>
+	<header class="mui-bar mui-bar-nav report-header box-s" id="header">
+        <!--<div class="top-sch-box flex-col">
+            <div class="centerflex">
+                <i class="fdj iconfont icon-sousuo"></i>
+                <div class="sch-txt">搜索菜名</div>
+            </div>
+        </div>-->
+        <a href="javascript:history.go(-1)"><i class="iconfont icon-fanhui fl"></i></a>
+        <p>在线点餐</p>
+    </header>
+    <div id="main" class="mui-clearfix">
+		<div class="contaniner clearfloat">
+			<aside class="assort">
+				<ul>
+					<li>
+						<span>早餐</span>
+					</li>
+					<li class="active">
+						<span>午餐</span>
+					</li>
+					<li>
+						<span>晚餐</span>
+					</li>
+				</ul>
+			</aside>
+
+			<section class="assort-cont clearfloat">
+				<div class="sideMenu clearfloat">
+					<h3><em></em>两荤选择</h3>
+					<div class="slist clearfloat box-s">
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1" data-title="番茄炒蛋：主要材料为番茄，鸡蛋，砂糖，白酒">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+							<p class="btn active">已选定</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+							<p class="btn active">已选定</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+					</div>
+					<h3><em></em>一素选择</h3>
+					<div class="slist clearfloat box-s">
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+							<p class="btn active">已选定</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+					</div>
+					<h3><em></em>配汤选择</h3>
+					<div class="slist clearfloat box-s">
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+					</div>
+					<h3><em></em>饭后水果</h3>
+					<div class="slist clearfloat box-s">
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+						<div class="list clearfloat fl">
+							<a href="upload/2.jpg" class="example-image-link" data-lightbox="example-1" data-title="番茄炒蛋：主要材料为番茄，鸡蛋，砂糖，白酒">
+								<img src="upload/2.jpg"/>
+								<p class="tit">番茄炒蛋</p>
+							</a>
+								<p class="btn">马上订餐</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	<footer class="page-footer fixed-footer" id="footer">
+		<a class="shopcaradd fl">已选：2件(还差1件)</a>
+		<!-- 不可操作按钮状态 -->
+		<a href="##" class="ljdhuan fl" id="chakan">立即下单</a>
+		<!-- 可操作按钮状态 -->
+		<!-- <a href="confirm.html" class="ljdhuan fl">立即下单</a> -->
+	</footer>
+</body>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+	<script src="js/lightbox-plus-jquery.min.js"></script>
+	<script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+	<script src="js/fastclick.js"></script>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript" src="js/hmt.js" ></script>
+	<!--插件-->
+	<script type="text/javascript">
+		jQuery(".sideMenu").slide({
+			titCell:"h3",
+			targetCell:".slist",
+			effect:"slideDown",
+			delayTime:300 ,
+			triggerTime:150,
+			defaultPlay:true,
+			returnDefault:false,
+			trigger:"click"
+			});
+	</script>
+	<script src="js/layer.js"></script>
+	<script>
+	    $('#chakan').parent('#footer').on('click', function(){
+	        layer.open({
+	            content: '下单成功！',
+	            style: 'background-color:#8FD800; color:#fff; border:none;',
+	            time: 1,
+	        });
+	        setTimeout('window.location="shopcar.html";',1200);
+	    });
+	</script>
+</html>

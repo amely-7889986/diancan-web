@@ -35,10 +35,10 @@
 </div>
 <!--loading页结束-->
 	<body>
-		<header class="mui-bar mui-bar-nav report-header box-s" id="header">
-			<a href="javascript:history.go(-1)"><i class="iconfont icon-fanhui fl"></i></a>
-			<p>全部订单</p>
-	    </header>
+        <header class="mui-bar mui-bar-nav report-header box-s" id="header">
+            <a class="btn" href="javascript:history.go(-1)"><i class="iconfont icon-fanhui fl"></i></a>
+            <div class="nav-name">全部订单</div>
+        </header>
 	    <div id="main" class="mui-clearfix">
             <div class="order-top clearfloat">
               <ul>
@@ -52,9 +52,14 @@
 	    		</p>
 	    		<div class="list clearfloat fl box-s">
 	    			<a href="pro-detail.html">
-		    			<div class="tu fl clearfloat">
-		    				<img src="upload/2.jpg"/>
-		    			</div>
+		    			<div class="fl tu clearfloat">
+                        <div class="carpic">
+                            <img src="upload/2.jpg"/>
+                            <img src="upload/2.jpg"/>
+                            <img src="upload/2.jpg"/>
+                            <img src="upload/2.jpg"/>
+                        </div>
+                    </div>
 		    			<div class="middle clearfloat fl">
 		    				<p class="tit">番茄炒蛋</p>
 							<p class="fu-tit">
@@ -70,7 +75,7 @@
 	    		<div class="list clearfloat fl box-s">
                     <a href="pro-detail.html">
                         <div class="tu fl clearfloat">
-                            <img src="upload/2.jpg"/>
+                            <img src="upload/3.png"/>
                         </div>
                         <div class="middle clearfloat fl">
                             <p class="tit">番茄炒蛋</p>
@@ -84,9 +89,12 @@
                         </div>
                     </a>
                 </div>
-	    		<a href="#" class="gopay-btn fr">
+	    		<a onclick="" class="gopay-btn fr">
 	    			取消订餐
 	    		</a>
+                <a href="#" class="gopay-btn fr">
+                    取消订餐
+                </a>
 	    	</div>
             <div class="order-list clearfloat">
                 <p class="ordernum box-s">
@@ -126,7 +134,7 @@
                         </div>
                     </a>
                 </div>
-                <a href="javescript:void(0)" class="gopay-btn gopay-btn-h fr">
+                <a href="javescript:void(0)" class="fr" style="padding: 1em; font-size: 1.6em; color: gray;">
                     已取消
                 </a>
             </div>

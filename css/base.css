@@ -283,7 +283,7 @@ html{font-size:10px}
 /*header*/
 .logo{width: 30%;}
 .logo img{max-width: 192px; width: 100%; max-height: 46px;}
-
+.nav-name{ display: block; width: 60%; height: 1.44rem; line-height: 1.44rem; font-size: 1.4em; margin: 0 auto; text-align: center;}
 
 
 /*页面固定定位样式*/
@@ -304,4 +304,3 @@ html{font-size:10px}
 .page-footer ul li img{  width: 33.333%;}
 .page-footer ul li p{ font-size: .4rem; color: #fff;margin-top: 3%;}
 .page-footer1 ul li p{ font-size: .9em; color: #fff;margin-top: 3%;}
-

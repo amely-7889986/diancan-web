@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>取餐</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <script src="js/rem.js"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/page.css"/>
+    <link rel="stylesheet" type="text/css" href="css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="css/mui.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/loaders.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/loading.css"/>
+<script type="text/javascript">
+	$(window).load(function(){
+		$(".loading").addClass("loader-chanage")
+		$(".loading").fadeOut(300)
+	})
+</script>
+</head>
+<!--loading页开始-->
+<div class="loading">
+	<div class="loader">
+        <div class="loader-inner pacman">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+	</div>
+</div>
+<!--loading页结束-->
+<body>
+
+	<header class="mui-bar mui-bar-nav report-header box-s" id="header">
+			<a class="btn" href="javascript:history.go(-1)"><i class="iconfont icon-fanhui fl"></i></a>
+      <div class="nav-name">取餐</div>
+	</header>
+    <div id="main" class="mui-clearfix">
+
+		<div class="contaniner clearfloat">
+
+			<section class="clearfloat">
+				<div class="sideMenu clearfloat">
+					<h3 class="sideMenu-h3 noicon">1号饭堂<span class="number">(3)</span></h3>
+					<div class="slist clearfloat box-s">
+						<div class="list window clearfloat fl">
+							<div class="mealwindow fl">
+                <img src="img/window-bg.png">
+                <div class="mealwindow-modality">
+                  <p>窗口1</p>
+                  <span class="choice"></span>
+                </div> 
+              </div>
+							<div class="mealwindow mealwindow02 fl">
+                <img src="img/window-bg.png">
+                  <div class="mealwindow-modality noclick">
+                    <p>窗口3</p>
+                    <span class="choice noclicked box-s">已取餐</span>
+                  </div> 
+              </div>
+							<div class="mealwindow fl">
+                <img src="img/window-bg.png">
+                <div class="mealwindow-modality">
+                  <p>窗口1</p>
+                  <span class="choice"></span>
+                </div> 
+              </div>
+						</div>
+						<div class="list window clearfloat fl">
+							<div class="mealwindow fl">
+                <img src="img/window-bg.png">
+                <div class="mealwindow-modality">
+                  <p>窗口1</p>
+                  <span class="choice sel"></span>
+                </div>
+              </div>
+              <div class="li-upnum fl">
+                <div class="title">您的排队号码：</div>
+                <ul>
+                  <li>879</li>
+                  <li>987</li>
+                  <li>98</li>
+                  <li>767</li>
+                  <li>876</li>
+                  <li>998</li>
+                </ul>
+              </div>
+              <a href="javascript:void(0)" class="reelect fr">重选</a>
+            </div>
+					</div>
+					<h3 class="sideMenu-h3 takefood-h3">1号饭堂<span class="number">(3)</span></h3>
+					<div class="slist clearfloat box-s">
+					  <div class="list window clearfloat fl">
+					    <div class="mealwindow fl">
+                <img src="img/window-bg.png">
+                <div class="mealwindow-modality">
+                  <p>窗口1</p>
+                  <span class="choice"></span>
+                </div> 
+              </div>
+							<div class="mealwindow fl">
+                <img src="img/window-bg.png">
+                <div class="mealwindow-modality">
+                  <p>窗口1</p>
+                  <span class="choice"></span>
+                </div> 
+              </div>
+              <div class="mealwindow fl">
+                <img src="img/window-bg.png">
+                <div class="mealwindow-modality">
+                  <p>窗口1</p>
+                  <span class="choice"></span>
+                </div> 
+              </div>
+            </div>
+          </div>
+				</div>
+			</section>
+		</div>
+	</div>
+</body>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js" ></script>
+	<script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
+	<script src="js/fastclick.js"></script>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript" src="js/hmt.js" ></script>
+	<!--插件-->
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<script src="js/swiper.jquery.min.js"></script>
+	<!--插件-->
+	<script type="text/javascript">
+		jQuery(".sideMenu").slide({
+			titCell:"h3",
+			targetCell:".slist",
+			effect:"slideDown",
+			delayTime:300 ,
+			triggerTime:150,
+			defaultPlay:true,
+			returnDefault:false,
+			trigger:"click"
+			});
+	</script>
+</html>

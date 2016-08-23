@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    
+    <link rel="stylesheet" type="text/css" href="css/page.css"/>
+</head>
+<body>
+    <table border="0" class="mui-row chieflist">
+      <tbody>
+        <tr>
+          <td class=" fl" style="width: 8.9%;"><p>1</p></td>
+          <td class=" fl" style="width: 20%;"><p>张筱魏</p></td>
+          <td class=" fl " style="width: 48%; overflow: hidden;">
+            <div class="fl order-li clearfloat">芥蓝炒牛肉</div>
+            <div class="fl order-li clearfloat">番茄炒蛋</div>
+            <div class="fl order-li clearfloat">番茄炒蛋+荷包蛋</div>
+            <div class="fl order-li clearfloat">苦瓜炒蛋</div>
+            <div class="fl order-li clearfloat">粟米羹</div>
+            <div class="fl order-li clearfloat">白米饭</div>
+            <div class="fl order-li clearfloat">清蒸皖鱼</div>
+            <div class="fl order-li clearfloat">酸菜鱼</div>
+            <div class="fl order-li clearfloat">豆角炒肉</div>
+            <div class="fl order-li clearfloat">酸菜炒荷兰豆</div>
+          </td>
+          <td class=" fl" style="width: 16%;">
+            <a href="javascripi:void(0)" class="mui-btn mui-btn-green">确定</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="mui-col-xs-1 mui-col-sm-1 fl chief-num"><p>2</p></td>
+          <td class="mui-col-xs-2 mui-col-sm-2 fl chief-name"><p>张筱魏</p></td>
+          <td class="mui-col-xs-6 mui-col-sm-6 fl chief-order">
+            <div class="fl order-li clearfloat">芥蓝炒牛肉</div>
+            <div class="fl order-li clearfloat">番茄炒蛋</div>
+            <div class="fl order-li clearfloat">番茄炒蛋+荷包蛋</div>
+            <div class="fl order-li clearfloat">苦瓜炒蛋</div>
+            <div class="fl order-li clearfloat">粟米羹</div>
+            <div class="fl order-li clearfloat">白米饭</div>
+            <div class="fl order-li clearfloat">清蒸皖鱼</div>
+          </td>
+          <td class="mui-col-xs-3 mui-col-sm-3 fl chief-btn">
+            <a href="javascripi:void(0)" class="mui-btn mui-btn-green">确定</a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+</body>
+</html>
